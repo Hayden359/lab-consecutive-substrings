@@ -1,5 +1,13 @@
+
+//O(n^2) solution
 function consecutiveSubstrings(string) {
-  // type your code here
+  let substringsList = [];
+  for (let i = 0; i < string.length; i++) {
+    for (let j = i + 1; j <= string.length; j++) {
+      substringsList.push(string.slice(i, j));
+    }
+  }
+  return substringsList;
 }
 
 if (require.main === module) {
