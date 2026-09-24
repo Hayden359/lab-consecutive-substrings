@@ -1,2 +1,9 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+pseudocode
+
+on cnosecutiveSubstrings
+set i = letter count
+ loop through each letter i times
+  create a result using i to determine which letter should be added for each loop
+
+
+Using O(n^2) solution for straitforward solution, considering this is a small list of letters process time will not be a problem.
